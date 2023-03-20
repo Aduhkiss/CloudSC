@@ -1,0 +1,3 @@
+server:
+  name: 'Hub-1'
+  bungeecord: false

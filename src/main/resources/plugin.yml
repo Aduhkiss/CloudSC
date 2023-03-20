@@ -1,0 +1,19 @@
+name: CloudySC
+version: '${project.version}'
+main: com.thecloudyco.staffchat.StaffChat
+api-version: 1.19
+authors: [ Aduhkiss ]
+commands:
+  staffchat:
+    description: Main Staff Chat command
+    aliases: ["sc", "s"]
+    permission: cloudsc.staffchat
+  adminchat:
+    description: Admin Only Chat Command
+    aliases: ["ac", "a"]
+    permission: cloudsc.adminchat
+permissions:
+  cloudsc.staffchat:
+    default: op
+  cloudmc.adminchat:
+    default: op
